@@ -18,19 +18,19 @@ Refer to this [page](https://pandoc.org/). Markdown document is already readable
 
 ## Examples
 
-See [note-example.md](./note-example.md). Note that Github does not render math mode for Markdown, but Pandoc does.
+See [example.md](./example.md). Note that Github does not render math mode for Markdown, but Pandoc does.
 
 ## Converting to PDF
 
 Run this command to convert .md to .pdf using default settings.
 
 ```
-pandoc note-example.md -o example.pdf
+pandoc example.md -o example.pdf
 ```
 
 Run this command to convert .md to .pdf using some custom settings (stored in ./settings.yml).
 
 ```
-pandoc note-example.md -o example.pdf --pdf-engine=pdflatex --metadata-file ./settings.yml
+pandoc example.md -o example.pdf --pdf-engine=pdflatex --metadata-file ./settings.yml
 ```
 
