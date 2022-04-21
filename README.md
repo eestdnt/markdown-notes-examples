@@ -18,7 +18,7 @@ Refer to this [page](https://pandoc.org/). Markdown document is already readable
 
 ## Examples
 
-See [note-example.md](./note-example.md).
+See [note-example.md](./note-example.md). Note that Github does not render math mode for Markdown, but Pandoc does.
 
 ## Converting to PDF
 
