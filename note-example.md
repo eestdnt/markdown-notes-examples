@@ -1,6 +1,6 @@
-# Note 1 - 01.01.2022
+# Note 1 - 21.04.2022
 
-## 1. Mathematic example
+## 1. Equation example
 
 ### Steps for solving quadratic equations
 

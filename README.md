@@ -31,7 +31,6 @@ pandoc note-example.md -o example.pdf
 Run this command to convert .md to .pdf using some custom settings (stored in ./settings.yml).
 
 ```
-pandoc note-example.md -o example.pdf --pdf-engine=pdflatex
---metadata-file ./settings.yml
+pandoc note-example.md -o example.pdf --pdf-engine=pdflatex --metadata-file ./settings.yml
 ```
 
