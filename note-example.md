@@ -38,6 +38,33 @@ $$
 \text{where} \qquad j^2 = -1
 $$
 
+### Latex macros example
+
+\newcommand{\der}[1]{\frac{d #1}{dt}}
+\newcommand{\Der}[1]{\frac{d}{dt} \left[ #1 \right]}
+
+Latex-style macros can be defined for efficient writing in math mode. For example,
+
+```latex
+\newcommand{\der}[1]{\frac{d #1}{dt}}
+```
+
+defines the derivative of a variable symbol which is supplied as an argument. So that one can write `\der{x}` in math mode to give $\der{x}$.
+
+Another example, define
+
+```latex
+\newcommand{\Der}[1]{\frac{d}{dt} \left[ #1 \right]}
+```
+
+and then write
+
+```latex
+\Der{\frac{1}{x^2} + \frac{1}{x}}
+```
+
+to render $\Der{\frac{1}{x^2} + \frac{1}{x}}$.
+
 ## 2. Table example
 
 | Syntax      | Description | Test Text     |
