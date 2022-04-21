@@ -1,0 +1,8 @@
+---
+documentclass: scrartcl
+pagestyle: empty
+papersize: a5
+fontsize: 10pt
+fontenc: T1
+header-includes: \renewcommand*\familydefault{\sfdefault} 
+---

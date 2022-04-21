@@ -1,6 +1,12 @@
 # Markdown note examples
 
-This guide gives examples of using Markdown and Pandoc for making beautiful notes/reports/homework-assignments/mathematic-notes in daily usage.
+This simple guide gives examples of using Markdown and Pandoc for making beautiful notes/reports/homework-assignments/mathematic-notes in daily usage. For more Markdown features, visit this [link](https://www.markdownguide.org/basic-syntax/).
+
+## Required packages
+
+- Pandoc
+- Latex engines (available in miktex or texlive packages)
+- Text editors
 
 ## Why Markdown?
 
@@ -13,3 +19,19 @@ Refer to this [page](https://pandoc.org/). Markdown document is already readable
 ## Examples
 
 See [note-example.md](./note-example.md).
+
+## Converting to PDF
+
+Run this command to convert .md to .pdf using default settings.
+
+```
+pandoc note-example.md -o example.pdf
+```
+
+Run this command to converter .md to .pdf using some custom settings (stored in ./settings.yml).
+
+```
+pandoc note-example.md -o example.pdf --pdf-engine=pdflatex
+--metadata-file ./settings.yml
+```
+
