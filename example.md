@@ -98,3 +98,7 @@ print("Hello world");
 Example picture.
 
 ![Mountain](./mountain.jpg)
+
+Another example.
+
+![Buck-boost diagram](./buck-boost-diagram.svg)
