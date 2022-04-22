@@ -5,6 +5,7 @@ This simple guide gives examples of using Markdown and Pandoc for making beautif
 ## Required packages
 
 - Pandoc
+- rsvg-convert (on Windows)
 - Latex engines (available in miktex or texlive packages)
 - Text editors
 

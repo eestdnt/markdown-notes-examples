@@ -38,6 +38,8 @@ $$
 \text{where} \qquad j^2 = -1
 $$
 
+Note: If you want to write multiple lines of equations, then wrap the equations inside the Latex environments "align*" or "align" instead of the $$ pairs.
+
 ### Latex macros example
 
 \newcommand{\der}[1]{\frac{d #1}{dt}}
